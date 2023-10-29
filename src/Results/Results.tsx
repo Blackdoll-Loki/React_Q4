@@ -1,10 +1,12 @@
 import React from "react";
+import Card from "../Card/Card";
+import "./Results.css";
 
 export default class Results extends React.Component{
   render(): React.ReactNode {
     return(
-      <section>
-        <h1>here will be results</h1>
+      <section className="Results">
+        <Card></Card>
       </section>
     )
   }
