@@ -1,0 +1,15 @@
+section {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.searchInput,
+.searchButton {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 5px 7px;
+  border-radius: 5px;
+  border-color: teal;
+  background-color: transparent;
+}
